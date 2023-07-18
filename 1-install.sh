@@ -62,6 +62,9 @@ apt install -y git pip ranger cmatrix espeak ncdu translate-shell rsync kdeconne
 echo -e "\e[1;32m Installing gnome-dictionary \e[0m"
 apt install -y gnome-dictionary
 
+# clipboard
+apt install -y diodon
+
 # Torrent Management
 echo -e "\e[1;32m Installing torrent-client/transmission \e[0m"
 apt install -y transmission
